@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Matrimonials</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+
+<section id="header">
+      <nav class="navbar navbar-expand-lg navbar-light w-100 shadow bg_blue">
+      <div class="container-xl">
+         <a class="d-flex text-white" href="index.html">
+			 <b class="fs-3 d-block logo">
+				<img src="/image/wedding/logo.png" class="w-25" alt="">
+			 </b>
+	     </a>
+         <button class="navbar-toggler offcanvas-nav-btn  ms-auto me-3" type="button">
+            <img src="image/icons-svg/list.svg" width="40" height="40" alt="Open TemplateOnweb website menu"/>
+         </button>
+         <div class="offcanvas offcanvas-start offcanvas-nav" style="width: 20rem">
+            <div class="offcanvas-header shadow">
+			    <a class="d-flex me-3 text-white" href="index.html">
+ 					 <b class="fs-3 d-block logo">  Aggarwal Matrimonial</b>
+				 </a>
+               <img src="image/icons-svg/x.svg" width="40" height="40" class="ms-auto" data-bs-dismiss="offcanvas" aria-label="Close" alt="Close TemplateOnweb website menu"/>
+			   
+            </div>
+            <div class="offcanvas-body pt-0 align-items-center">
+               <ul class="navbar-nav align-items-lg-center ms-auto">
+			      <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle active fs-4" href="index.html" title="Visit home page">
+					  <i class="bi bi-house"></i>
+					  </a>
+				  </li>
+				  
+				
+				  <li class="nav-item dropdown drop_border">
+          <a class="nav-link " href="list1.html" >
+            Profile
+          </a>
+          <!-- <ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="list.html"> Profile 1</a></li>
+			<li><a class="dropdown-item" href="list1.html"> Profile 2</a></li>
+			<li><a class="dropdown-item border-0" href="detail.html"> Profile Detail</a></li>
+          </ul> -->
+        </li>
+		
+		          <!-- <li class="nav-item dropdown drop_border">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog<img src="image/icons-svg/chevron-down.svg" width="15" height="15" alt="Submenu open/close icon">
+          </a>
+          <ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="blog.html"> Blog</a></li>
+			<li><a class="dropdown-item border-0" href="blog_detail.html"> Blog Detail</a></li>
+          </ul>
+        </li> -->
+	
+				  <!-- <li class="nav-item dropdown drop_border">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pages<img src="image/icons-svg/chevron-down.svg" width="15" height="15" alt="Submenu open/close icon">
+          </a>
+          <ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="about.html"> About Us</a></li>
+			<li><a class="dropdown-item" href="services.html"> Services</a></li>
+			<li><a class="dropdown-item" href="gallery.html"> Gallery</a></li>
+			<li><a class="dropdown-item" href="pricing.html"> Pricing</a></li>
+			<li><a class="dropdown-item" href="search.html"> Search Profile</a></li>
+			<li><a class="dropdown-item" href="team.html"> Team</a></li>
+			<li><a class="dropdown-item" href="login.html"> Login</a></li>
+			<li><a class="dropdown-item border-0" href="register.html">Register</a></li>
+          </ul>
+        </li> -->
+				 
+
+
+				  <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle" href="about.html" title="Visit home page">
+					  About Us
+					  </a>
+				  </li>
+				  <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle" href="contact.html" title="Visit home page">
+					  Contact Us
+					  </a>
+				  </li>
+               </ul>
+			   <ul class="navbar-nav align-items-lg-center ms-auto">
+			       <li class="nav-item dropdown drop_border">
+					  <a class="nav-link dropdown-toggle fs-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<i class="bi bi-person"></i>
+					  </a>
+					  <ul class="dropdown-menu drop_1 drop_log shadow" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="login.html"> Login </a></li>
+						<li><a class="dropdown-item border-0" href="register.html"> Register</a></li>
+					  </ul>
+				  </li>
+			      <li class="nav-item dropdown drop_border">
+          <a class="nav-link dropdown-toggle border-0 bg_blue_dark fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-search"></i>
+          </a>
+		  <ul class="dropdown-menu drop_1 drop_search shadow p-3" aria-labelledby="navbarDropdown">
+            <li>
+			  <div class="input-group">
+				<input type="text" class="form-control" placeholder="Search Here">
+				<span class="input-group-btn">
+					<button class="btn btn-primary bg_blue rounded-0 p-2 px-3 border-0" type="button">
+						<i class="bi bi-search"></i> </button>
+				</span>
+		</div>
+			</li>
+          </ul>
+          
+        </li>
+                 </ul>
+            </div>
+         </div>    
+         </div>
+      </div>
+   </nav>
+</section>
+<section id="center" class="center_home">
+   <div class="center_m bg_back">
+       <div class="container-xl">
+	     <div class="row center_home1">
+		    <div class="col-md-8">
+			 <div class="center_home1_left text-center">
+			   <h1 class="text-white">Finding your perfect match just became easier</h1>
+<h5 class="text-white">
+  Join our trusted community of verified profiles and connect effortlessly.
+  Experience personalized matchmaking with free chat and messaging features,
+  making your search for a life partner simple and meaningful.
+</h5>
+<h5 class="text-white">
+  Enjoy complimentary access to chat with matches and explore profiles without restrictions,
+  supported by our safe and confidential environment.
+</h5>
+			 </div>
+			</div>
+			<div class="col-md-4">
+			 <div class="center_home1_right p-3 bg-white rounded-3">
+			   <b class="text-capitalize d-block font_13  mb-2">Create profile for</b>
+				<select class="form-select" aria-label="Default select example">
+					<option selected="">Select</option>
+					<option value="1">Self</option>
+					<option value="2">Son</option>
+					<option value="3">Daughter</option>
+					<option value="4">Brother</option>
+					<option value="5">Sister</option>
+				</select>
+				 <b class="text-capitalize d-block font_13 mb-2 mt-3">Email Address</b>
+				<input class="form-control" placeholder="info@gmail.com" type="text">
+				 <b class="text-capitalize d-block font_13  mb-2 mt-3">Mobile No.</b>
+				<input class="form-control" placeholder="+91" type="text">
+				 <b class="text-capitalize d-block font_13 mb-2 mt-3">Create Password</b>
+				<div class="input-group border_light">
+			<input type="password" class="form-control bg-transparent border-0" placeholder="Type Password">
+			<span class="input-group-btn">
+				<button class="btn btn-primary bg-transparent border-0 rounded-0 text-black" type="button">
+					<i class="bi bi-eye"></i> </button>
+			</span>
+		</div>
+		        <div class="form-check font_13 mt-3">
+					<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+					<label class="form-check-label " for="invalidCheck">
+					   I agree to the <a class="text-danger" href="#">Terms & Conditions</a>  and <a class="text-danger" href="#">Privacy Policy</a>
+					</label>
+				</div>
+				<div class="form-check font_13 mt-2">
+					<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+					<label class="form-check-label" for="invalidCheck">
+					  Receive emails on latest offers & membership perks
+					</label>
+				</div>
+				<span class="d-block mt-3 text-center"><a class="d-block button" href="#">Register For Free</a></span>
+				<span class="d-block mt-2 text-center font_13">Manage your contact & profile privacy settings, anytime!</span>
+			 </div>
+			</div>
+		 </div>
+	   </div>
+   </div>
+ </section>
+ 
+ <section id="exep" class="pt-4 pb-5">
+   <div class="container-xl">
+    <div class="exep_m bg-white p-4 shadow">
+      <div class="row exep_1 mb-4">
+        <div class="col-md-12">
+          <span class="text-uppercase text-muted d-block">More Than 25 years of</span>
+          <b class="d-block fs-3 mt-2">Bringing People <span class="text-danger">Together</span></b>
+        </div>
+      </div> 
+      <div class="row row-cols-1 row-cols-md-3 exep_2">
+        <div class="col">
+          <div class="exep_2_left">
+             <span class="font_50 text-danger"><i class="bi bi-person-circle"></i></span>
+             <b class="d-block">100% Verified Profiles</b>
+             <hr class="line">
+             <p class="mb-0">All profiles are carefully verified to ensure authenticity and trustworthiness for our users.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="exep_2_left">
+             <span class="font_50 text-danger"><i class="bi bi-shield-check"></i></span>
+             <b class="d-block">Verification by Personal Visit</b>
+             <hr class="line">
+             <p class="mb-0">Our verification team conducts personal visits to validate profiles, ensuring genuine matches.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="exep_2_left">
+             <span class="font_50 text-danger"><i class="bi bi-lock"></i></span>
+             <b class="d-block">Complete Privacy Control</b>
+             <hr class="line">
+             <p class="mb-0">You control who views your profile to maintain privacy throughout your matchmaking journey.</p>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 about_pg3 mt-5 border-top border-bottom">
+      <div class="col">
+         <div class="about_pg3_left border-end py-4 px-3">
+             <ul class="mb-0 d-flex">
+             <li class="d-flex">
+               <span class="d-inline-block text-center bg-danger text-white rounded-circle cont_icon me-3 fs-5"><i class="bi bi-heart"></i></span>
+                <span class="flex-column lh-1">
+                 <b class="fs-1 d-block">3K+</b>
+                 <span class="d-block text-uppercase text-muted mt-2 font_13">Couples Matched</span>
+                </span>
+             </li>
+             </ul>
+          </div>
+      </div>
+      <div class="col">
+         <div class="about_pg3_left border-end py-4 px-3">
+             <ul class="mb-0 d-flex">
+             <li class="d-flex">
+               <span class="d-inline-block text-center bg-danger text-white rounded-circle cont_icon me-3 fs-5"><i class="bi bi-people"></i></span>
+                <span class="flex-column lh-1">
+                 <b class="fs-1 d-block">3000+</b>
+                 <span class="d-block text-uppercase text-muted mt-2 font_13">Registered Users</span>
+                </span>
+             </li>
+             </ul>
+          </div>
+      </div>
+      <div class="col">
+         <div class="about_pg3_left border-end py-4 px-3">
+             <ul class="mb-0 d-flex">
+             <li class="d-flex">
+               <span class="d-inline-block text-center bg-danger text-white rounded-circle cont_icon me-3 fs-5"><i class="bi bi-gender-male"></i></span>
+                <span class="flex-column lh-1">
+                 <b class="fs-1 d-block">1200+</b>
+                 <span class="d-block text-uppercase text-muted mt-2 font_13">Men</span>
+                </span>
+             </li>
+             </ul>
+          </div>
+      </div>
+      <div class="col">
+         <div class="about_pg3_left py-4 px-3">
+             <ul class="mb-0 d-flex">
+             <li class="d-flex">
+               <span class="d-inline-block text-center bg-danger text-white rounded-circle cont_icon me-3 fs-5"><i class="bi bi-gender-female"></i></span>
+                <span class="flex-column lh-1">
+                 <b class="fs-1 d-block">1700+</b>
+                 <span class="d-block text-uppercase text-muted mt-2 font_13">Women</span>
+                </span>
+             </li>
+             </ul>
+          </div>
+      </div>
+    </div>
+   </div>
+</section>
+
+ 
+<section id="meet" class="pt-5 pb-5 bg_light">
+   <div class="container-xl">
+      <div class="row exep_1 mb-4">
+        <div class="col-md-12">
+          <span class="text-uppercase text-muted d-block">Meet from home</span>
+          <b class="d-block fs-3 mt-2">Impress them Over the <span class="text-danger">Distance</span></b>
+        </div>
+      </div> 
+      <div class="row meet_1">
+        <div class="col-md-7">
+          <div class="meet_1_left">
+              <b class="d-block fs-5">Jeevansathi Match Hour</b>
+              <hr class="line">
+              <p class="mb-0 w-75">Connect with your matches at a convenient time through our exclusive match hour feature, designed to bring you closer even when apart.</p>
+              <b class="d-block fs-5 mt-4">Voice & Video Calling</b>
+              <hr class="line">
+              <p class="mb-0 w-75">Enjoy secure voice and video calls directly on the platform to get to know your potential life partner intimately and comfortably.</p>
+              <b class="d-block fs-5 mt-4">Introducing Video Profiles</b>
+              <hr class="line">
+              <p class="mb-0 w-75">View video introductions of members to experience their personality and expressions beyond just photos and text.</p>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="meet_1_right">
+             <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-indicators">
+                 <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+                 <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                 <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+               </div>
+               <div class="carousel-inner">
+                 <div class="carousel-item active">
+                   <img src="image/wedding/67666566acc82a7e2ba0b8e4_Badal & riya.avif" class="img-fluid" alt="Person using video call on matrimonial site">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="image/wedding/6766660c329e480383d6307a_Dhawal & puja.avif" class="img-fluid" alt="Happy couple meeting virtually">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="image/wedding/6766636fb83d806a63dc562e_saurav & vaishali.avif" class="img-fluid" alt="Video profile showcase feature">
+                 </div>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div> 
+   </div>
+</section>
+
+
+<section id="whychooseus" class="py-5 bg_light">
+  <div class="container-xl">
+    <div class="text-center mb-4">
+      <b class="fs-2 mb-2" style="color:#dc3545;">Why Choose Us?</b>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-5 col-md-6 mb-4">
+        <div class="bg-white rounded shadow p-4 h-100">
+          <div class="d-flex align-items-center mb-3">
+            <img src="/image/wedding/logo.png" alt="Aggrwal Matrimonial Logo" style="width:50px; height:auto;" class="me-2">
+            <b style="color:#dc3545; font-size:1.2rem;">Aggrwal Matrimonial</b>
+          </div>
+          <ul class="list-unstyled mb-0" style="font-size:1.05rem;">
+            <li class="mb-3 d-flex align-items-start">
+              <span class="me-2" style="color:#dc3545;"><i class="bi bi-check-circle"></i></span> 
+              Easier matchmaking using WhatsApp community
+            </li>
+            <li class="mb-3 d-flex align-items-start">
+              <span class="me-2" style="color:#dc3545;"><i class="bi bi-check-circle"></i></span> 
+              Parent approved profiles for trust and peace of mind
+            </li>
+            <li class="mb-3 d-flex align-items-start">
+              <span class="me-2" style="color:#dc3545;"><i class="bi bi-check-circle"></i></span>
+              Educated and experienced matchmakers for expert support
+            </li>
+            <li class="mb-3 d-flex align-items-start">
+              <span class="me-2" style="color:#dc3545;"><i class="bi bi-check-circle"></i></span>
+              Higher success rates in roka and marriages
+            </li>
+            <li class="d-flex align-items-start">
+              <span class="me-2" style="color:#dc3545;"><i class="bi bi-check-circle"></i></span>
+              Kundli matched profiles for personalized matchmaking
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 d-flex align-items-center justify-content-center mb-4">
+        <div class="bg-white rounded-circle shadow" style="width:60px; height:60px; display:flex; align-items:center; justify-content:center;">
+          <b style="color:#dc3545; font-size:1.5rem;">VS</b>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-6 mb-4">
+        <div class="bg-white rounded shadow p-4 h-100">
+          <b style="color:#dc3545; font-size:1.2rem;">Other Matrimony</b>
+          <ul class="list-unstyled mb-0" style="font-size:1.05rem;">
+            <li class="mb-3 d-flex align-items-start">
+              <span class="me-2" style="color:#dc3545;"><i class="bi bi-x-circle"></i></span>
+              Hassle to find a right partner
+            </li>
+            <li class="mb-3 d-flex align-items-start">
+              <span class="me-2" style="color:#dc3545;"><i class="bi bi-x-circle"></i></span>
+              Unverified profiles
+            </li>
+            <li class="mb-3 d-flex align-items-start">
+              <span class="me-2" style="color:#dc3545;"><i class="bi bi-x-circle"></i></span>
+              No matchmaking support
+            </li>
+            <li class="mb-3 d-flex align-items-start">
+              <span class="me-2" style="color:#dc3545;"><i class="bi bi-x-circle"></i></span>
+              No support for getting roka
+            </li>
+            <li class="d-flex align-items-start">
+              <span class="me-2" style="color:#dc3545;"><i class="bi bi-x-circle"></i></span>
+              Get connected with random profiles
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ 
+ <section id="find" class="pt-5 pb-5">
+   <div class="container-xl">
+	  <div class="row exep_1 mb-4">
+	    <div class="col-md-12">
+		   <span class="text-uppercase text-muted d-block">Three simple steps to</span>
+		  <b class="d-block fs-3 mt-2">Find the  <span class="text-danger">One for You</span></b>
+		</div>
+	  </div> 
+	   <div class="row row-cols-1 row-cols-md-3 find_1">
+	    <div class="col">
+		  <div class="find_1_left">
+		     <a href="#"><img src="image/wedding/67f8d2659d80f6f96d5317ed_Payal and Thomas, Rajasthan.jpg" class="img-fluid" alt="abc"></a>
+			 <b class="d-block d-flex mt-2"><span class="text-danger me-1">01.</span> Join WhatsApp Group of Parents</b>
+			 <p>Get access to parent verified profiles, learn about their backgrounds, and connect through shared profiles.</p>
+
+		  </div>
+		</div>
+		<div class="col">
+		<div class="find_1_left">
+		 <a href="#"><img src="image/wedding/67f386db617865f143b18828_Surreal Wedding With A Bride In No Makeup & A Stunning Customised Saree-p-500.jpg" class="img-fluid" alt="abc"></a>
+		 <b class="d-block d-flex mt-2"><span class="text-danger me-1">02.</span>Find Your Perfect Family</b>
+		 <p> 
+Explore community profiles and connect with anyone you choose.</p>
+		</div>
+		</div>
+		<div class="col">
+		<div class="find_1_left">
+		 <a href="#"><img src="image/wedding/67f24a3e6455127fcc081ebc_download (44)-p-500.jpg" class="img-fluid" alt="abc"></a>
+		 <b class="d-block d-flex mt-2"><span class="text-danger me-1">03.</span>Easy to Connect</b>
+		 <p>
+Once you find someone you like, connect with them and take it from there!</p>
+		</div>
+		</div>
+	  </div>
+	  <div class="row find_2 text-center mt-4">
+	    <div class="col-md-12">
+		   <span class="d-block mt-3 text-center"><a class="button" href="#">Get Started</a></span>
+		</div>
+	  </div>
+   </div>
+ </section>
+
+
+
+
+
+
+
+
+
+ 
+<section id="pricing" class="pt-5 pb-5 bg_light">
+   <div class="container-xl">
+      <div class="row pricing_1 mb-4 text-center">
+        <div class="col-md-12">
+          <b class="d-block fs-3 mb-2"> <span class="text-danger">Membership</span> Plans</b>
+          <p class="mb-0 w-75 mx-auto">
+            Choose the membership that suits your needs. Our free plan offers essential features to get started, while the paid plan unlocks premium tools for a faster and more personalized matchmaking experience.
+          </p>
+        </div>
+      </div> 
+       <div class="row row-cols-1 row-cols-md-2 row-cols-sm-2 pricing_2 w-75 mx-auto">
+        <div class="col p-0">
+          <div class="pricing_2_left bg-white py-4 px-3 rounded_left pricing_2_lefto">
+            <hr class="line">
+            <b class="d-block fs-4 mb-3">Free</b>
+            <ul>
+              <li class="d-flex"><i class="bi bi-check-circle fs-5 text-danger align-middle me-2"></i> Browse Profiles</li>
+              <li class="d-flex mt-2"><i class="bi bi-check-circle fs-5 text-danger align-middle me-2"></i> Shortlist & Send Interest</li>
+              <li class="d-flex mt-2"><i class="bi bi-check-circle fs-5 text-danger align-middle me-2"></i> Message & Chat with Unlimited Users</li>
+              <li class="d-flex mt-2 text-muted"><i class="bi bi-x-circle fs-5 align-middle me-2"></i> Get up to 3x More Matches Daily</li>
+              <li class="d-flex mt-2 text-muted"><i class="bi bi-x-circle fs-5 align-middle me-2"></i> Unlock Advanced Search Filters</li>
+              <li class="d-flex mt-2 text-muted"><i class="bi bi-x-circle fs-5 align-middle me-2"></i> View Contact Details</li>
+              <li class="d-flex mt-2 text-muted"><i class="bi bi-x-circle fs-5 align-middle me-2"></i> Make Unlimited Voice and Video Calls</li>
+              <li class="d-flex mt-2 text-muted"><i class="bi bi-x-circle fs-5 align-middle me-2"></i> Get 3 Free Spotlights</li>
+            </ul>
+            <span class="d-block mt-3 text-center"><a class="d-block button" href="#">Register Free</a></span>
+          </div>
+        </div>
+        <div class="col p-0">
+          <div class="pricing_2_left bg-danger py-4 px-3 rounded_right">
+            <hr class="line bg-white">
+            <b class="d-block fs-4 mb-3 text-white">Paid</b>
+            <ul class="text-white">
+              <li class="d-flex"><i class="bi bi-check-circle fs-5 align-middle me-2"></i> Browse Profiles</li>
+              <li class="d-flex mt-2"><i class="bi bi-check-circle fs-5 align-middle me-2"></i> Shortlist & Send Interest</li>
+              <li class="d-flex mt-2"><i class="bi bi-check-circle fs-5 align-middle me-2"></i> Message & Chat with Unlimited Users</li>
+              <li class="d-flex mt-2"><i class="bi bi-check-circle fs-5 align-middle me-2"></i> Get up to 3x More Matches Daily</li>
+              <li class="d-flex mt-2"><i class="bi bi-check-circle fs-5 align-middle me-2"></i> Unlock Advanced Search Filters</li>
+              <li class="d-flex mt-2"><i class="bi bi-check-circle fs-5 align-middle me-2"></i> View Contact Details</li>
+              <li class="d-flex mt-2"><i class="bi bi-check-circle fs-5 align-middle me-2"></i> Make Unlimited Voice and Video Calls</li>
+              <li class="d-flex mt-2"><i class="bi bi-check-circle fs-5 align-middle me-2"></i> Get 3 Free Spotlights</li>
+            </ul>
+            <span class="d-block mt-3 text-center"><a class="d-block button bg-white text-danger" href="#">Browse Membership Plans</a></span>
+          </div>
+        </div>
+      </div>
+   </div>
+</section>
+
+
+
+<section id="match" class="pt-5 pb-5">
+   <div class="container-xl">
+      <div class="row exep_1 mb-4 text-center">
+        <div class="col-md-12">
+           <span class="text-uppercase text-muted d-block">PERSONALISED MATCH-MAKING SERVICE</span>
+           <b class="d-block fs-3 mt-2 mb-3">Introducing <span class="text-danger">Exclusive</span></b>
+           <span class="d-inline-block bg-danger text-white py-2 px-3 font_14 text-uppercase rounded-3 mb-4">Exclusive</span><br>
+           <div class="news_1_left2_inner position-relative w-75 mx-auto">
+              <div class="news_1_left2_inner1">
+                <a href="#"><img src="image/wedding/67f4cf3b07fcf4d9b2261cc8_download (45).jpg" class="img-fluid" alt="Premium personalised matchmaking service"></a>
+              </div>
+              <div class="news_1_left2_inner2 position-absolute bottom-0 px-4 bg_back w-100 mx-auto p-3">
+                <ul class="mb-0">
+                  <li class="d-flex">
+                    <span class="flex-column">
+                      <b class="d-inline-block bg-danger text-white p-1 px-3 font_12 text-uppercase rounded-1">Relationship</b>
+                      <b class="d-block fs-4 mt-2 mb-2">
+                        <a class="text-white" href="#">
+                          Tailor-made matches for <span class="text-danger">serious</span> and meaningful relationships
+                        </a>
+                      </b>
+                      <p class="text-light mt-3">
+                        Our Exclusive service is designed for families and individuals who prefer a high-privacy, handpicked matchmaking experience. 
+                        A dedicated team personally understands your preferences, lifestyle, and values to introduce only the most compatible matches.
+                      </p>
+                      <span class="text-light font_12 text-uppercase">
+                        <i class="bi bi-calendar me-1 text-danger align-middle"></i> Since 2016
+                        <i class="bi bi-heart me-1 text-danger ms-2 align-middle"></i> Trusted by happy families
+                      </span>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+           </div>
+        </div>
+      </div> 
+       <div class="row row-cols-1 row-cols-md-3 match_1 w-75 mx-auto">
+         <div class="col">
+           <div class="match_1_left">
+             <b class="d-flex">
+               <i class="bi bi-person-circle me-2 fs-5 text-danger"></i> Meet your Relationship Manager
+             </b>
+             <hr class="line">
+             <p class="mb-0">
+               Connect with a dedicated Relationship Manager who personally understands you, your family background, and your expectations.
+             </p>
+           </div>
+         </div>
+         <div class="col">
+           <div class="match_1_left">
+             <b class="d-flex">
+               <i class="bi bi-sliders2 me-2 fs-5 text-danger"></i> Share your preferences
+             </b>
+             <hr class="line">
+             <p class="mb-0">
+               Get a detailed consultation to clearly define your partner preferences, priorities, and community-specific expectations.
+             </p>
+           </div>
+         </div>
+         <div class="col">
+           <div class="match_1_left">
+             <b class="d-flex">
+               <i class="bi bi-person-check me-2 fs-5 text-danger"></i> Choose from handpicked profiles
+             </b>
+             <hr class="line">
+             <p class="mb-0">
+               Receive carefully screened and handpicked profiles shortlisted by experts, so you focus only on the most relevant matches.
+             </p>
+           </div>
+         </div>
+       </div>
+   </div>
+</section>
+
+ 
+<section id="couple" class="pt-5 pb-5 bg_light">
+   <div class="container-xl">
+      <div class="row exep_1 mb-4">
+        <div class="col-md-12">
+           <span class="text-uppercase text-muted d-block">Hundreds OF HAPPY COUPLES</span>
+           <b class="d-block fs-3 mt-2">Matched by <span class="text-danger">Aggrwal Matrimonials</span></b>
+        </div>
+      </div> 
+       <div class="row row-cols-1 row-cols-md-3 couple_1">
+        <div class="col">
+          <div class="couple_1_left position-relative">
+            <div class="couple_1_left1">
+              <a href="#"><img src="image/wedding/6766660c329e480383d6307a_Dhawal & puja.avif" class="img-fluid" alt="Happy couple of Lorem & Porta"></a>
+             </div>
+            <div class="couple_1_left2 position-absolute bg_back w-100 h-100 px-3 text-center top-0">
+            <b class="fst-italic d-block fs-3 text-white">[लक्ष्मण & सर्वदा]</b>
+            <hr class="bg-white w-100 line_1 mt-1 mb-1">
+            <span class="font_13 text-uppercase text-white">Marriage Date 08 March 2025</span>
+           </div>
+            <div class="couple_1_left3 position-absolute top-0 bg_back w-100 h-100 p-3">
+              <p class="mb-0 text-white">We found each other through Aggrwal Matrimonials’s personalized matchmaking. The relationship manager was supportive and made the entire process comfortable and trustworthy.</p>
+              <span class="d-block mt-3"><a class="button" href="#">View More <i class="bi bi-arrow-right ms-2"></i></a></span>
+           </div>
+         </div>
+       </div>
+       <div class="col">
+         <div class="couple_1_left position-relative">
+           <div class="couple_1_left1">
+             <a href="#"><img src="image/wedding/67666566acc82a7e2ba0b8e4_Badal & riya.avif" class="img-fluid" alt="Happy couple of Ipsum & Eget"></a>
+           </div>
+            <div class="couple_1_left2 position-absolute bg_back w-100 h-100 px-3 text-center top-0">
+            <b class="fst-italic d-block fs-3 text-white">[राजेश & प्रिया]</b>
+            <hr class="bg-white w-100 line_1 mt-1 mb-1">
+            <span class="font_13 text-uppercase text-white">Marriage Date 11 March 2025</span>
+           </div>
+            <div class="couple_1_left3 position-absolute top-0 bg_back w-100 h-100 p-3">
+              <p class="mb-0 text-white">Thanks to Aggrwal Matrimonials, we connected with people who shared our values and aspirations. The team’s attention to detail was amazing!</p>
+              <span class="d-block mt-3"><a class="button" href="#">View More <i class="bi bi-arrow-right ms-2"></i></a></span>
+           </div>
+         </div>
+       </div>
+       <div class="col">
+         <div class="couple_1_left position-relative">
+           <div class="couple_1_left1">
+             <a href="#"><img src="image/wedding/6766636fb83d806a63dc562e_saurav & vaishali.avif" class="img-fluid" alt="Happy couple of Nulla & Quis"></a>
+           </div>
+            <div class="couple_1_left2 position-absolute bg_back w-100 h-100 px-3 text-center top-0">
+            <b class="fst-italic d-block fs-3 text-white">[नीलम & अरुण]</b>
+            <hr class="bg-white w-100 line_1 mt-1 mb-1">
+            <span class="font_13 text-uppercase text-white">Marriage Date 18 March 2025</span>
+           </div>
+            <div class="couple_1_left3 position-absolute top-0 bg_back w-100 h-100 p-3">
+              <p class="mb-0 text-white">The personalized support and genuine profiles helped us find love and friendship. We are grateful for this beautiful journey.</p>
+              <span class="d-block mt-3"><a class="button" href="#">View More <i class="bi bi-arrow-right ms-2"></i></a></span>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+</section>
+
+ 
+ <section id="profile" class="pt-5 pb-5">
+   <div class="container-xl">
+	  <div class="row exep_1 mb-4 text-center">
+	    <div class="col-md-12">
+		   <span class="text-uppercase text-muted d-block">Browse</span>
+		  <b class="d-block fs-3 mt-2">Profiles by  <span class="text-danger">Matrimonials</span></b>
+		</div>
+	  </div> 
+	   <div class="row profile_1">
+	    <div class="col-md-12">
+		  <ul class="nav nav-tabs mb-0  flex-wrap font_15 justify-content-center border-0 tab_click">
+<li class="nav-item">
+<a href="#profile1" data-bs-toggle="tab" aria-expanded="true" class="nav-link active">
+<span class="d-md-block">Mother Tongue</span>
+</a>
+</li>
+
+<li class="nav-item">
+<a href="#profile2" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+<span class="d-md-block">Caste</span>
+</a>
+</li>
+<li class="nav-item">
+<a href="#profile3" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+<span class="d-md-block">Religion</span>
+</a>
+</li>
+
+<li class="nav-item">
+<a href="#profile4" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+<span class="d-md-block">City</span>
+</a>
+</li>
+
+<li class="nav-item">
+<a href="#profile5" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+<span class="d-md-block">Occupation</span>
+</a>
+</li>
+<li class="nav-item">
+<a href="#profile6" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+<span class="d-md-block">State</span>
+</a>
+</li>
+<li class="nav-item">
+<a href="#profile7" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+<span class="d-md-block">NRI</span>
+</a>
+</li>
+
+
+</ul>
+           <div class="tab-content mt-4">
+
+<div class="tab-pane active" id="profile1">
+     <div class="profile1_inner">
+	   <ul class="mb-0 d-flex flex-wrap justify-content-center">
+	    <li><a href="#">Bihari</a></li>
+		<li class="text-muted mx-3">|</li>
+		<li><a href="#">Bengali</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Gujarati</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Hindi</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Kannada</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Malayalam</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Marathi</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Oriya</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Punjabi</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Rajasthani</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Tamil</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Telugu</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Konkani</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Haryanvi</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Kashmiri</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Nepali</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Assamese</a></li>
+		<li class="text-muted mx-3">|</li>
+	   </ul>
+	 </div>
+</div>
+<div class="tab-pane" id="profile2">
+    <div class="profile1_inner">
+	   <ul class="mb-0 d-flex flex-wrap justify-content-center">
+	    <li><a href="#">Aggarwal</a></li>
+		<li class="text-muted mx-3">|</li>
+		<li><a href="#">Brahmin</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Jat</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Kayastha</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Maratha</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Rajput</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Sindhi</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Arora</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Sikh</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Digambar</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Vasihnav</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Gupta</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Teli</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Bania</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Yadava</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Khatri</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Gaur</a></li>
+		<li class="text-muted mx-3">|</li>
+	   </ul>
+	 </div>
+	  
+</div>
+<div class="tab-pane" id="profile3">
+    <div class="profile1_inner">
+	   <ul class="mb-0 d-flex flex-wrap justify-content-center">
+	    <li><a href="#">Hindu</a></li>
+		<li class="text-muted mx-3">|</li>
+		<li><a href="#">Muslim</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Christian</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Sikh</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Buddhist</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Jain</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Bahai</a></li>
+
+	   </ul>
+	 </div>
+	  
+</div>
+
+<div class="tab-pane" id="profile4">
+    <div class="profile1_inner">
+	   <ul class="mb-0 d-flex flex-wrap justify-content-center">
+	    <li><a href="#">Kanpur</a></li>
+		<li class="text-muted mx-3">|</li>
+		<li><a href="#">Lucknow</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Mumbai</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Delhi</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Agra</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Nagpur</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Ludhiana</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Jaipur</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Noida</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Patna</a></li>
+	   </ul>
+	 </div>
+	  
+</div>
+
+<div class="tab-pane" id="profile5">
+    <div class="profile1_inner">
+	   <ul class="mb-0 d-flex flex-wrap justify-content-center">
+	    <li><a href="#">Businessman</a></li>
+		<li class="text-muted mx-3">|</li>
+		<li><a href="#">Teacher</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">IT Software</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Police</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Doctor</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Nurse</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">IAS</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">PCS</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Ngo</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Engineers</a></li>
+	   </ul>
+	 </div>
+	  
+</div>
+
+<div class="tab-pane" id="profile6">
+    
+	  <div class="profile1_inner">
+	   <ul class="mb-0 d-flex flex-wrap justify-content-center">
+	    <li><a href="#">Karnataka</a></li>
+		<li class="text-muted mx-3">|</li>
+		<li><a href="#">Uttar Pradesh</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Maharashtra</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Nagaland</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Meghalaya</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Manipur</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Delhi</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Kerala</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Bihar</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Assam</a></li>
+	   </ul>
+	 </div>
+</div>
+
+<div class="tab-pane" id="profile7">
+    <div class="profile1_inner">
+	   <ul class="mb-0 d-flex flex-wrap justify-content-center">
+	    <li><a href="#">United States</a></li>
+		<li class="text-muted mx-3">|</li>
+		<li><a href="#">United Kingdom</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Canada</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Sweden</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Spain</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Italy</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">France</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Australia</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">UAE</a></li>
+		<li class="text-muted mx-3">|</li>
+		 <li><a href="#">Netherlands</a></li>
+	   </ul>
+	 </div>
+	  
+</div>
+
+
+</div>
+		</div>
+	  </div>
+   </div>
+ </section>
+ 
+<section id="about" class="pt-5 pb-5 bg_light">
+   <div class="container-xl">
+      <div class="row about_1">
+        <div class="col-md-12">
+                <img src="/image/wedding/logo.png" width="10%" alt="Aggrwal Matrimonial Logo">
+           <p class="mt-3">
+             Aggrwal Matrimonial is dedicated to bringing together families and individuals seeking lifelong partners with trust and sincerity. 
+             With years of experience in personalized matchmaking, we blend modern technology with traditional values to create meaningful connections.
+           </p>
+           <p>
+             Our mission is to provide a secure, confidential, and user-friendly platform where every profile is verified and carefully curated to ensure compatibility and authenticity.
+             We believe in fostering relationships built on respect, shared values, and mutual understanding.
+           </p>
+           <p class="mb-0">
+             <b>Please Note:</b> Our expert relationship managers are always available to guide you through every step, ensuring a smooth and supportive matchmaking journey tailored to your unique preferences.
+           </p>
+        </div>
+      </div> 
+   </div>
+</section>
+
+<section id="footer" class="pt-5 pb-5 bg_blue">
+ <div class="container-xl">
+  <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 footer_2 mt-4 mx-0">
+     <div class="col p-0">
+       <div class="footer_2_left">
+         <b class="fs-5 d-block text-white mb-3">Matrimony Services</b>
+         <ul class="mb-0 font_14">
+          <li><a class="text-white-50 link" href="#">Assamese Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Gujarati Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Bengali Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Kerala Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Oriya Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Kannada Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Parsi Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Tamil Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Telugu Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Punjabi Matrimony</a></li>
+         </ul>
+       </div>  
+     </div>
+     <div class="col p-0">
+       <div class="footer_2_left border-start-0">
+         <b class="fs-5 d-block text-white mb-3">Help & Support</b>
+         <ul class="mb-0 font_14">
+          <li><a class="text-white-50 link" href="#">Contact Us</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Feedback</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">FAQs</a></li>
+         </ul>
+         <b class="fs-5 d-block text-white mb-3 mt-3">Other Services</b>
+         <ul class="mb-0 font_14">
+          <li><a class="text-white-50 link" href="mailto:info@aggrwalmatrimonial.com">Email: info@aggrwalmatrimonial.com</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Profile Assistance</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Privacy Settings</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Membership Plans</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Terms of Service</a></li>
+         </ul>
+       </div>  
+     </div>
+     <div class="col p-0">
+       <div class="footer_2_left border-start-0">
+         <b class="fs-5 d-block text-white mb-3">Information</b>
+         <ul class="mb-0 font_14">
+          <li><a class="text-white-50 link" href="#">About Us</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Awards</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Milestones</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Partners</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Success Stories</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Payment Options</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Careers</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Commercials</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Terms & Conditions</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Privacy Policy</a></li>
+         </ul>
+       </div>  
+     </div>
+     <div class="col p-0">
+       <div class="footer_2_left border-start-0">
+         <b class="fs-5 d-block text-white mb-3">Related Services</b>
+         <ul class="mb-0 font_14">
+          <li><a class="text-white-50 link" href="#">Partner Connect</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">FAQs</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Affiliate Sites</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Travel & Tours</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Special Discounts</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Promotions</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Awards & Recognition</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Events & Offers</a></li>
+         </ul>
+       </div>  
+     </div>
+  </div>
+  <div class="footer_bottom_1 row mt-4">
+        <div class="col-md-8">
+          <div class="footer_bottom_1_left pt-2">
+            <p class="mb-0 text-white-50">© 2025 Aggrwal Matrimonial. All Rights Reserved </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer_bottom_1_right">
+            <ul class="mb-0 d-flex social_brands justify-content-end">
+                <li><a class="bg-primary d-inline-block text-white text-center" href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="ms-2"><a class="bg-success d-inline-block text-white text-center" href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="ms-2"><a class="bg-warning d-inline-block text-white text-center" href="#"><i class="bi bi-linkedin"></i></a></li>
+                <li class="ms-2"><a class="bg-info d-inline-block text-white text-center" href="#"><i class="bi bi-pinterest"></i></a></li>
+                <li class="ms-2"><a class="bg-danger d-inline-block text-white text-center" href="#"><i class="bi bi-youtube"></i></a></li>
+              </ul>
+          </div>
+        </div>
+    </div>
+ </div>
+</section>
+
+		
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/theme.min.js"></script>
+
+</body>
+</html>

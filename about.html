@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Matrimonials</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/about.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+
+<section id="header">
+      <nav class="navbar navbar-expand-lg navbar-light w-100 shadow bg_blue">
+      <div class="container-xl">
+         <a class="d-flex text-white" href="index.html">
+			 <b class="fs-3 d-block logo">
+				<img src="/image/wedding/logo.png" class="w-25" alt="">
+			 </b>
+	     </a>
+         <button class="navbar-toggler offcanvas-nav-btn  ms-auto me-3" type="button">
+            <img src="image/icons-svg/list.svg" width="40" height="40" alt="Open TemplateOnweb website menu"/>
+         </button>
+         <div class="offcanvas offcanvas-start offcanvas-nav" style="width: 20rem">
+            <div class="offcanvas-header shadow">
+			    <a class="d-flex me-3 text-white" href="index.html">
+ 					 <b class="fs-3 d-block logo">  Aggarwal Matrimonial</b>
+				 </a>
+               <img src="image/icons-svg/x.svg" width="40" height="40" class="ms-auto" data-bs-dismiss="offcanvas" aria-label="Close" alt="Close TemplateOnweb website menu"/>
+			   
+            </div>
+            <div class="offcanvas-body pt-0 align-items-center">
+               <ul class="navbar-nav align-items-lg-center ms-auto">
+			      <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle active fs-4" href="index.html" title="Visit home page">
+					  <i class="bi bi-house"></i>
+					  </a>
+				  </li>
+				  
+				
+				  <li class="nav-item dropdown drop_border">
+          <a class="nav-link " href="list1.html" >
+            Profile
+          </a>
+          <!-- <ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="list.html"> Profile 1</a></li>
+			<li><a class="dropdown-item" href="list1.html"> Profile 2</a></li>
+			<li><a class="dropdown-item border-0" href="detail.html"> Profile Detail</a></li>
+          </ul> -->
+        </li>
+		
+		          <!-- <li class="nav-item dropdown drop_border">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog<img src="image/icons-svg/chevron-down.svg" width="15" height="15" alt="Submenu open/close icon">
+          </a>
+          <ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="blog.html"> Blog</a></li>
+			<li><a class="dropdown-item border-0" href="blog_detail.html"> Blog Detail</a></li>
+          </ul>
+        </li> -->
+	
+				  <!-- <li class="nav-item dropdown drop_border">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pages<img src="image/icons-svg/chevron-down.svg" width="15" height="15" alt="Submenu open/close icon">
+          </a>
+          <ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="about.html"> About Us</a></li>
+			<li><a class="dropdown-item" href="services.html"> Services</a></li>
+			<li><a class="dropdown-item" href="gallery.html"> Gallery</a></li>
+			<li><a class="dropdown-item" href="pricing.html"> Pricing</a></li>
+			<li><a class="dropdown-item" href="search.html"> Search Profile</a></li>
+			<li><a class="dropdown-item" href="team.html"> Team</a></li>
+			<li><a class="dropdown-item" href="login.html"> Login</a></li>
+			<li><a class="dropdown-item border-0" href="register.html">Register</a></li>
+          </ul>
+        </li> -->
+				 
+
+
+				  <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle" href="about.html" title="Visit home page">
+					  About Us
+					  </a>
+				  </li>
+				  <li class="nav-item"> 
+				      <a class="nav-link dropdown-toggle" href="contact.html" title="Visit home page">
+					  Contact Us
+					  </a>
+				  </li>
+               </ul>
+			   <ul class="navbar-nav align-items-lg-center ms-auto">
+			       <li class="nav-item dropdown drop_border">
+					  <a class="nav-link dropdown-toggle fs-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<i class="bi bi-person"></i>
+					  </a>
+					  <ul class="dropdown-menu drop_1 drop_log shadow" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="login.html"> Login </a></li>
+						<li><a class="dropdown-item border-0" href="register.html"> Register</a></li>
+					  </ul>
+				  </li>
+			      <li class="nav-item dropdown drop_border">
+          <a class="nav-link dropdown-toggle border-0 bg_blue_dark fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-search"></i>
+          </a>
+		  <ul class="dropdown-menu drop_1 drop_search shadow p-3" aria-labelledby="navbarDropdown">
+            <li>
+			  <div class="input-group">
+				<input type="text" class="form-control" placeholder="Search Here">
+				<span class="input-group-btn">
+					<button class="btn btn-primary bg_blue rounded-0 p-2 px-3 border-0" type="button">
+						<i class="bi bi-search"></i> </button>
+				</span>
+		</div>
+			</li>
+          </ul>
+          
+        </li>
+                 </ul>
+            </div>
+         </div>    
+         </div>
+      </div>
+   </nav>
+</section>
+
+
+
+
+<section id="center" class="center_about pt-4 bg-danger">
+   <div class="container-xl">
+    <div class="row center_price1 text-center">
+	  <div class="col-md-12">
+	   <b class="fs-5 d-block mb-3 text-warning">#1 WEDDING WEBSITE</b>
+	   <h1 class="text-white font_50">About Us</h1>
+<p class="mt-3 text-white mb-0 fs-5">Most Trusted and best Matrimony Service in the World.</p>
+	  </div>
+	</div>
+   </div>
+ </section>
+ 
+ <section id="about_pg" class="pb-5">
+   <div class="container-xl">
+    <div class="row row-cols-1 row-cols-md-3 about_pg1  mx-auto">
+	  <div class="col">
+	    <div class="about_pg1_left shadow bg-white p-4 rounded-3 text-center hvr-grow mx-2">
+		   <span class="text-danger fs-1 mb-3 d-block"><i class="bi bi-person-check"></i></span>
+		   <b class="d-block fs-5">Genuine profiles</b>
+		   <p class="mb-0 mt-3">The most trusted wedding matrimony brand</p>
+		</div>  
+	  </div>
+	  <div class="col">
+	    <div class="about_pg1_left shadow bg-white p-4 rounded-3 text-center hvr-grow  mx-2">
+		   <span class="text-danger fs-1 mb-3 d-block"><i class="bi bi-shield-lock"></i></span>
+		   <b class="d-block fs-5">Most trusted</b>
+		   <p class="mb-0 mt-3">The most trusted wedding matrimony brand</p>
+		</div>  
+	  </div>
+	  <div class="col">
+	    <div class="about_pg1_left shadow bg-white p-4 rounded-3 text-center hvr-grow  mx-2">
+		   <span class="text-danger fs-1 mb-3 d-block"><i class="bi bi-arrow-through-heart"></i></span>
+		   <b class="d-block fs-5">1200+ weddings</b>
+		   <p class="mb-0 mt-3">The most trusted wedding matrimony brand</p>
+		</div>  
+	  </div>
+	</div>
+	<div class="row row-cols-1 row-cols-md-2 about_pg2 mt-5">
+	  <div class="col">
+	     <div class="about_pg2_left position-relative">
+		    <div class="about_pg2_left1">
+			  <img src="image/wedding/traditional-indian-men-clothes-pagri-turban.jpg" alt="abc" class="w-75 rounded-3">
+			</div>
+			<div class="about_pg2_left2 position-absolute bottom-0 text-end">
+			   <img src="image/wedding/all-indian-family-women-hold-spices-their-palms.jpg"abc" class="w-75">
+			</div>
+		 </div>
+	  </div>
+	  <div class="col">
+  <div class="about_pg2_right">
+    <h1 class="text-uppercase font_50">Welcome to</h1>
+    <h2 class="text-danger text-uppercase">Aggrwal Matrimonial</h2>
+    <p class="mt-4 mb-4">
+      Discover trusted matchmaking where tradition meets technology. Aggrwal Matrimonial helps families and individuals connect with verified, compatible partners for lifelong happiness.
+    </p>
+    <span>
+      <a class="text-danger" href="#">Click here</a> to start your matrimonial journey today.
+    </span>
+    <p class="border-top mt-4 pt-4 mb-4">
+      Our expert team blends experience and understanding to guide you at every step—privacy, personal support, and genuine profiles. Join a thriving community built on trust, authenticity, and values.
+    </p>
+    <ul class="mb-0 d-flex justify-content-between flex-wrap">
+      <li class="d-flex">
+        <span class="d-inline-block text-center bg_blue text-white rounded-circle cont_icon me-3"><i class="bi bi-telephone"></i></span>
+        <span class="flex-column">
+          <span class="text-muted d-block">Enquiry</span>
+          <b class="d-block fs-5">+91 9871 234567</b>
+        </span>
+      </li>
+      <li class="d-flex">
+        <span class="d-inline-block text-center bg_blue text-white rounded-circle cont_icon me-3"><i class="bi bi-envelope"></i></span>
+        <span class="flex-column">
+          <span class="text-muted d-block">Get Support</span>
+          <b class="d-block fs-5">info@aggrwalmatrimonial.com</b>
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+	</div>
+	<div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 about_pg3 mt-5 border-top border-bottom">
+	  <div class="col">
+	     <div class="about_pg3_left border-end py-4 px-3">
+		     <ul class="mb-0 d-flex">
+			 <li class="d-flex">
+			  <span class="d-inline-block text-center bg-danger text-white rounded-circle cont_icon me-3 fs-5"><i class="bi bi-heart"></i></span>
+			   <span class="flex-column lh-1">
+			    <b class="fs-1 d-block"> 3K</b>
+				<span class="d-block text-uppercase text-muted mt-2 font_13">COUPLES PARED</span>
+			   </span>
+			 </li>
+			</ul>
+		 </div>
+	  </div>
+	  <div class="col">
+	     <div class="about_pg3_left border-end py-4 px-3">
+		     <ul class="mb-0 d-flex">
+			 <li class="d-flex">
+			  <span class="d-inline-block text-center bg-danger text-white rounded-circle cont_icon me-3 fs-5"><i class="bi bi-people"></i></span>
+			   <span class="flex-column lh-1">
+			    <b class="fs-1 d-block"> 3000+</b>
+				<span class="d-block text-uppercase text-muted mt-2 font_13">REGISTERED USERS</span>
+			   </span>
+			 </li>
+			</ul>
+		 </div>
+	  </div>
+	  <div class="col">
+	     <div class="about_pg3_left border-end py-4 px-3">
+		     <ul class="mb-0 d-flex">
+			 <li class="d-flex">
+			  <span class="d-inline-block text-center bg-danger text-white rounded-circle cont_icon me-3 fs-5"><i class="bi bi-gender-male"></i></span>
+			   <span class="flex-column lh-1">
+			    <b class="fs-1 d-block"> 1200+</b>
+				<span class="d-block text-uppercase text-muted mt-2 font_13">Mens</span>
+			   </span>
+			 </li>
+			</ul>
+		 </div>
+	  </div>
+	  <div class="col">
+	     <div class="about_pg3_left py-4 px-3">
+		     <ul class="mb-0 d-flex">
+			 <li class="d-flex">
+			  <span class="d-inline-block text-center bg-danger text-white rounded-circle cont_icon me-3 fs-5"><i class="bi bi-gender-female"></i></span>
+			   <span class="flex-column lh-1">
+			    <b class="fs-1 d-block"> 1700+</b>
+				<span class="d-block text-uppercase text-muted mt-2 font_13">WOMENS</span>
+			   </span>
+			 </li>
+			</ul>
+		 </div>
+	  </div>
+	</div>
+   </div>
+ </section>
+ <section id="testim" class="pb-5 pt-5 bg_light">
+  <div class="container-xl">
+    <div class="testim_1 row text-center mb-4">
+      <div class="col-md-12">
+        <h2><span class="text-danger">CUSTOMER</span> TESTIMONIALS</h2>
+        <span class="text-uppercase">Real stories from happy families and individuals</span>
+      </div>
+    </div>
+    <div class="testim_2 row row-cols-1 row-cols-md-3">
+      <div class="col">
+        <div class="testim_2_left">
+          <div class="testim_2_left1 bg-white py-5 px-4 rounded-3 shadow">
+            <span class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <span class="font_14 text-muted ms-2">(50 Reviews)</span>
+            </span>
+            <p class="mb-0 mt-3">
+              Aggrwal Matrimonial connected us with genuine profiles. The support team was patient and guided us throughout, making the whole process comfortable and trustworthy.
+            </p>
+          </div>
+          <ul class="mb-0 px-4 mt-4">
+            <li class="d-flex mb-0">
+              <span><a href="#"><img class="rounded-circle" alt="Anjali Sharma" src="image/27.jpg"></a></span>
+              <span class="flex-column ms-3 lh-1">
+                <b class="d-block fs-6"><a class="yellow" href="#">Anjali Sharma</a></b>
+                <span class="font_12 d-block text-uppercase mt-2">IT PROFESSIONAL</span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="testim_2_left">
+          <div class="testim_2_left1 bg-white py-5 px-4 rounded-3 shadow">
+            <span class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <span class="font_14 text-muted ms-2">(40 Reviews)</span>
+            </span>
+            <p class="mb-0 mt-3">
+              Thanks to personalized matchmaking, I found my life partner who truly matched my expectations. Highly recommended service for families and singles!
+            </p>
+          </div>
+          <ul class="mb-0 px-4 mt-4">
+            <li class="d-flex mb-0">
+              <span><a href="#"><img class="rounded-circle" alt="Rahul Verma" src="image/28.jpg"></a></span>
+              <span class="flex-column ms-3 lh-1">
+                <b class="d-block fs-6"><a class="yellow" href="#">Rahul Verma</a></b>
+                <span class="font_12 d-block text-uppercase mt-2">GOVERNMENT STAFF</span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="testim_2_left">
+          <div class="testim_2_left1 bg-white py-5 px-4 rounded-3 shadow">
+            <span class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <span class="font_14 text-muted ms-2">(55 Reviews)</span>
+            </span>
+            <p class="mb-0 mt-3">
+              Excellent service and great results. The platform is easy to use, and the team helps at every stage—thank you for making my search successful!
+            </p>
+          </div>
+          <ul class="mb-0 px-4 mt-4">
+            <li class="d-flex mb-0">
+              <span><a href="#"><img class="rounded-circle" alt="Sushma Joshi" src="image/29.jpg"></a></span>
+              <span class="flex-column ms-3 lh-1">
+                <b class="d-block fs-6"><a class="yellow" href="#">Sushma Joshi</a></b>
+                <span class="font_12 d-block text-uppercase mt-2">TEACHER</span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--  
+ <section id="team" class="pb-5 pt-5">
+   <div class="container-xl">
+     <div class="testim_1 row text-center mb-4">
+	  <div class="col-md-12">
+	   <h2 class="text-uppercase">Meet  <span class="text-danger">Our Team</span></h2>
+	   <span class="text-uppercase">OUR PROFESSIONALS</span>
+	  </div>
+	 </div>
+	 <div class="row team_1 mx-3">
+   <div class="col-md-6">
+    <div class="team_1i">
+	   <div class="team_1i1 row">
+	    <div class="col-md-6 pe-0 col-sm-6">
+		 <div class="team_1i1l position-relative">
+		  <div class="team_1i1li">
+		    <a href="#"><img src="image/12.jpg" class="img-fluid" alt="abc"></a>
+		  </div>
+		  <div class="team_1i1li1 position-absolute w-100 h-100 bg_back top-0 text-center">
+		      <div class="top_1r">
+      <ul class="mb-0">
+		<li class="d-inline-block"><a class="bg-white d-block rounded-circle text-center text-danger" href="#"><i class="bi bi-facebook"></i></a>  </li>
+		<li class="d-inline-block"><a class="bg-white d-block rounded-circle text-center text-danger" href="#"><i class="bi bi-twitter"></i></a>  </li>
+		<li class="d-inline-block"><a class="bg-white d-block rounded-circle text-center text-danger" href="#"><i class="bi bi-linkedin"></i></a>  </li>
+		<li class="d-inline-block"><a class="bg-white d-block rounded-circle text-center text-danger" href="#"><i class="bi bi-instagram"></i></a>  </li>
+		<li class="d-inline-block"><a class="bg-white d-block rounded-circle text-center text-danger" href="#"><i class="bi bi-youtube"></i></a>  </li>
+	</ul>
+   </div>
+		  </div>
+		 </div>
+		</div>
+		<div class="col-md-6 ps-0 col-sm-6">
+		 <div class="team_1i1r bg_light  px-4">
+		  <h5>Lorem Quis</h5>
+		  <h6 class="font_14">Masters in Website</h6>
+		  <hr class="line">
+		  <h6 class="font_14"><span class="fw-bold">Qualification:</span> Bsc., BEd., Phd</h6>
+		  <h6 class="font_14 mb-0 mt-2"><span class="fw-bold">Experience:</span> 16 Years</h6>
+		  <p class="mb-0 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+		 </div>
+		</div>
+	   </div>
+	</div>
+   </div>
+   <div class="col-md-6">
+    <div class="team_1i">
+	   <div class="team_1i1 row">
+	    <div class="col-md-6 pe-0 col-sm-6">
+		 <div class="team_1i1l position-relative">
+		  <div class="team_1i1li">
+		    <a href="#"><img src="image/13.jpg" class="img-fluid" alt="abc"></a>
+		  </div>
+		  <div class="team_1i1li1 position-absolute w-100 h-100 bg_back top-0 text-center">
+		      <div class="top_1r">
+      <ul class="mb-0">
+		<li class="d-inline-block"><a class="bg-white d-block rounded-circle text-center text-danger" href="#"><i class="bi bi-facebook"></i></a>  </li>
+		<li class="d-inline-block"><a class="bg-white d-block rounded-circle text-center text-danger" href="#"><i class="bi bi-twitter"></i></a>  </li>
+		<li class="d-inline-block"><a class="bg-white d-block rounded-circle text-center text-danger" href="#"><i class="bi bi-linkedin"></i></a>  </li>
+		<li class="d-inline-block"><a class="bg-white d-block rounded-circle text-center text-danger" href="#"><i class="bi bi-instagram"></i></a>  </li>
+		<li class="d-inline-block"><a class="bg-white d-block rounded-circle text-center text-danger" href="#"><i class="bi bi-youtube"></i></a>  </li>
+	</ul>
+   </div>
+		  </div>
+		 </div>
+		</div>
+		<div class="col-md-6 ps-0 col-sm-6">
+		 <div class="team_1i1r bg_light  px-4">
+		  <h5>Semper Amet</h5>
+		  <h6 class="font_14">Manager</h6>
+		  <hr class="line">
+		  <h6 class="font_14"><span class="fw-bold">Qualification:</span> Bba., BEd., Phd</h6>
+		  <h6 class="font_14 mb-0 mt-2"><span class="fw-bold">Experience:</span> 18 Years</h6>
+		  <p class="mb-0 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+		 </div>
+		</div>
+	   </div>
+	</div>
+   </div>
+ </div>
+   </div>
+ </section> -->
+ <section id="faq" class="pb-5 pt-5 bg_light">
+  <div class="container-xl">
+    <div class="testim_1 row text-center mb-4">
+      <div class="col-md-12">
+        <h2 class="text-uppercase">KNOWLEDGE <span class="text-danger">Faq</span></h2>
+        <span class="text-uppercase">Common questions about Aggrwal Matrimonial services</span>
+      </div>
+    </div>
+    <div class="testim_2 row row-cols-1 row-cols-md-2">
+      <div class="col">
+        <div class="testim_2_left">
+          <div class="accordion" id="accordionExample">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="bi bi-check-circle me-2 align-middle"></i> How do I register for Aggrwal Matrimonial?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="mb-0">Visit our website and click "Register Free" to create a profile. Fill in your details, upload photos, and start connecting with verified matches instantly.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <i class="bi bi-check-circle me-2 align-middle"></i> Are profiles on Aggrwal Matrimonial verified?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="mb-0">Yes. Every profile goes through strict verification checks for authenticity and family approval, ensuring a safe and trustworthy community.</p>
+                </div>
+              </div>
+            </div> 
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <i class="bi bi-check-circle me-2 align-middle"></i> What features do paid members get?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="mb-0">Paid plans offer advanced search filters, unlimited messaging, access to contact details, priority matchmaking, and exclusive support from our team.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <i class="bi bi-check-circle me-2 align-middle"></i> Is my privacy protected?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="mb-0">Your privacy and data are always secure. You control who views your profile, and we never share details without your consent.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <i class="bi bi-check-circle me-2 align-middle"></i> How is matchmaking handled?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="mb-0">Our experienced matchmakers and relationship managers use your preferences and family values to suggest compatible matches for meaningful relationships.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <i class="bi bi-check-circle me-2 align-middle"></i> How can I contact support?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="mb-0">You can reach our support team by phone or email. Visit the Contact Us page for details and prompt assistance.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="testim_2_right">
+          <a href="#"><img src="image/wedding/67f622b643fd3811a044504d_Malvika and Abhishek, Ahmedabad.jpg" class="img-fluid" alt="FAQ Information"></a>
+        </div>
+      </div>
+    </div>  
+  </div>
+</section>
+
+
+<section id="about" class="pt-5 pb-5 bg_light">
+   <div class="container-xl">
+      <div class="row about_1">
+        <div class="col-md-12">
+                <img src="/image/wedding/logo.png" width="10%" alt="Aggrwal Matrimonial Logo">
+           <p class="mt-3">
+             Aggrwal Matrimonial is dedicated to bringing together families and individuals seeking lifelong partners with trust and sincerity. 
+             With years of experience in personalized matchmaking, we blend modern technology with traditional values to create meaningful connections.
+           </p>
+           <p>
+             Our mission is to provide a secure, confidential, and user-friendly platform where every profile is verified and carefully curated to ensure compatibility and authenticity.
+             We believe in fostering relationships built on respect, shared values, and mutual understanding.
+           </p>
+           <p class="mb-0">
+             <b>Please Note:</b> Our expert relationship managers are always available to guide you through every step, ensuring a smooth and supportive matchmaking journey tailored to your unique preferences.
+           </p>
+        </div>
+      </div> 
+   </div>
+</section>
+
+<section id="footer" class="pt-5 pb-5 bg_blue">
+ <div class="container-xl">
+  <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 footer_2 mt-4 mx-0">
+     <div class="col p-0">
+       <div class="footer_2_left">
+         <b class="fs-5 d-block text-white mb-3">Matrimony Services</b>
+         <ul class="mb-0 font_14">
+          <li><a class="text-white-50 link" href="#">Assamese Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Gujarati Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Bengali Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Kerala Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Oriya Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Kannada Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Parsi Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Tamil Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Telugu Matrimony</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Punjabi Matrimony</a></li>
+         </ul>
+       </div>  
+     </div>
+     <div class="col p-0">
+       <div class="footer_2_left border-start-0">
+         <b class="fs-5 d-block text-white mb-3">Help & Support</b>
+         <ul class="mb-0 font_14">
+          <li><a class="text-white-50 link" href="#">Contact Us</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Feedback</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">FAQs</a></li>
+         </ul>
+         <b class="fs-5 d-block text-white mb-3 mt-3">Other Services</b>
+         <ul class="mb-0 font_14">
+          <li><a class="text-white-50 link" href="mailto:info@aggrwalmatrimonial.com">Email: info@aggrwalmatrimonial.com</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Profile Assistance</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Privacy Settings</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Membership Plans</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Terms of Service</a></li>
+         </ul>
+       </div>  
+     </div>
+     <div class="col p-0">
+       <div class="footer_2_left border-start-0">
+         <b class="fs-5 d-block text-white mb-3">Information</b>
+         <ul class="mb-0 font_14">
+          <li><a class="text-white-50 link" href="#">About Us</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Awards</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Milestones</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Partners</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Success Stories</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Payment Options</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Careers</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Commercials</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Terms & Conditions</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Privacy Policy</a></li>
+         </ul>
+       </div>  
+     </div>
+     <div class="col p-0">
+       <div class="footer_2_left border-start-0">
+         <b class="fs-5 d-block text-white mb-3">Related Services</b>
+         <ul class="mb-0 font_14">
+          <li><a class="text-white-50 link" href="#">Partner Connect</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">FAQs</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Affiliate Sites</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Travel & Tours</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Special Discounts</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Promotions</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Awards & Recognition</a></li>
+          <li class="mt-2"><a class="text-white-50 link" href="#">Events & Offers</a></li>
+         </ul>
+       </div>  
+     </div>
+  </div>
+  <div class="footer_bottom_1 row mt-4">
+        <div class="col-md-8">
+          <div class="footer_bottom_1_left pt-2">
+            <p class="mb-0 text-white-50">© 2025 Aggrwal Matrimonial. All Rights Reserved </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer_bottom_1_right">
+            <ul class="mb-0 d-flex social_brands justify-content-end">
+                <li><a class="bg-primary d-inline-block text-white text-center" href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="ms-2"><a class="bg-success d-inline-block text-white text-center" href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="ms-2"><a class="bg-warning d-inline-block text-white text-center" href="#"><i class="bi bi-linkedin"></i></a></li>
+                <li class="ms-2"><a class="bg-info d-inline-block text-white text-center" href="#"><i class="bi bi-pinterest"></i></a></li>
+                <li class="ms-2"><a class="bg-danger d-inline-block text-white text-center" href="#"><i class="bi bi-youtube"></i></a></li>
+              </ul>
+          </div>
+        </div>
+    </div>
+ </div>
+</section>
+
+		
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/theme.min.js"></script>
+
+</body>
+</html>
